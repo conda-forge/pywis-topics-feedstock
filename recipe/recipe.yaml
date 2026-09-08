@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pywis-topics
-  version: "0.5.0"
+  version: "0.5.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 6dfcd20a2bfe5c90ceaa5141406f2cba64c092dbc1020e39d7b2cfe510950275
+  sha256: 8851d35c61e6e6798fb3da79287e94a7f5a465f8b8d80105032c9628db891149
 
 build:
   number: 0
